@@ -195,6 +195,11 @@ h1{
     margin-bottom: 10px;
     margin-left: 20px;
 }
+.card{
+   
+    background-color: #ffe6ac;
+    margin:15px 0;
+}
 /* vision */
 .vision{
 	background: url(../images/vision.jpg) no-repeat center center/cover;
@@ -336,9 +341,7 @@ input{
         text-align: center;
         margin-bottom: 20px;
     }
-.intro-2{
-    width: 598px;
-}
+
     nav form{
         display: flex;
         flex-direction: row;

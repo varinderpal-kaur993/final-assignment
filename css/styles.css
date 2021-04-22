@@ -46,17 +46,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
-
-/* ========MY STYLE======== */
-..container-1{
+/*------------- my style ------------------*/
+h2{
+    font-size: 54px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+h4{
+    font-weight: bold;
+}
+.container-1{
     max-width: 1200px;
     margin: 0 auto;
 }
 .container-2{
-    max-width: 1150px;
+    max-width: 1000px;
     margin: auto;
 }
 /* header */
@@ -76,6 +85,7 @@ table {
     list-style: none;
     text-align: center;
     margin: 10px 0;
+    margin-top: 10px;
     padding: 10px 0;
     justify-content: space-between;
    
@@ -90,6 +100,7 @@ table {
 }
 .current{
     background-color: #c78c06;
+    height: 20px;
 }
 .navbar form{
     align-self: center;
@@ -97,14 +108,14 @@ table {
 }
 .navbar input{
     width: 89%;
-    /* padding: 5px; */
+
     margin: 10px;
     flex-grow: 1;
 }
 .navbar button{
     padding: 6px;
     margin: 10px 10px 10px 0;
-    /* margin-bottom: 10px; */
+
     
 }
 
@@ -123,7 +134,7 @@ table {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding:  500px 20px;
+    padding:  100px 20px;
 	border: 1px solid #333;
 	
 }
@@ -159,8 +170,7 @@ h1{
 /* about */
 .row .column-1 img{
     width: 100%;
-    /* margin-left: 25px ; */
-    /* margin-right: 25px ; */
+  
     margin-top: 25px ;
 }
 .row .column-2 h2, .row .column-2 p{
@@ -299,6 +309,7 @@ input{
     box-sizing: border-box;
 }
 
+
 /* media queries */
 
 @media screen and (min-width:760px){
@@ -316,8 +327,15 @@ input{
         flex-direction: row;
         width: 60%;
         height: 50px;
-        margin-top: 10px;
+        margin-top: -25px;
         padding-right: 10px;
+    }
+    .img-logo{
+        margin-left: 68px;
+     
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
     }
    .logo{
        margin: 10px;
@@ -338,9 +356,7 @@ input{
         height: 54%;
         margin-left: 10px;
     }
-    .navbar button{
-        /* padding: 10px; */
-    }
+  
     .navbar ul{
         margin-top: 20px;
         width: 90%;
@@ -360,7 +376,7 @@ input{
 	}
 	.flex-columns .column .column-1{
 	 	width: 100%;
-		margin-left: 20px;
+		margin-left: 120px;
 		margin-bottom: 20px;
 	}
 	.flex-columns .column .column-2{
@@ -368,6 +384,7 @@ input{
 		padding-right: 90px;
 		padding-left: 20px;
 		padding-bottom: 10px;	
+        margin-left: 100px;
 	}
     .services{
         padding: 20px;
@@ -407,5 +424,10 @@ input{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             grid-gap: 1rem;
+        }
+        .margin{
+            padding-left: 85px;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
 }

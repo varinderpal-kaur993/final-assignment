@@ -48,12 +48,12 @@ table {
 }
 /*------------- my style ------------------*/
 h2{
-    font-size: 54px;
+    font-size: 48px;
     font-weight: bold;
     margin-top: 10px;
 }
 h3{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -139,13 +139,15 @@ h4{
 	
 }
 h1{
-    font-size: 81px;
-    line-height: 112px;
+    font-size: 71px;
+    line-height: 80px;
     font-weight: bold;
     color: #fff;
 }
 .intro-2{
     background-color: rgba(0,0,0, .2);
+    margin: 0 59px;
+
 }
 .intro p{
 	color: #fff;
@@ -162,7 +164,7 @@ h1{
 
 }
 .container{
-    background: antiquewhite;
+    background: #ffe6ac;
 }
 .column .column-1{
     width: 100%;
@@ -246,7 +248,7 @@ h1{
     padding-left: 0;
 }
 .team .row{
-    background-color:antiquewhite;
+    background-color:#ffe6ac;
     margin: 0;
 }
 
@@ -269,10 +271,11 @@ form button{
 }
 iframe{
     width: 100%;
+
 }
 
 table th{
-	background-color: antiquewhite;
+	background-color: #ffe6ac;
 }
 .contact thead th,
 .contact tbody td
@@ -313,7 +316,19 @@ input{
 /* media queries */
 
 @media screen and (min-width:760px){
-   
+    h2{
+        font-size: 54px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    h4{
+        font-weight: bold;
+    }
     nav ul{
         display: flex;
         flex-direction: row;
@@ -321,7 +336,9 @@ input{
         text-align: center;
         margin-bottom: 20px;
     }
-
+.intro-2{
+    width: 598px;
+}
     nav form{
         display: flex;
         flex-direction: row;
@@ -413,7 +430,7 @@ input{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             grid-gap: 1rem;
-            background-color: antiquewhite;
+            background-color: #ffe6ac;
         }
         .team .row .col-left img,
         .team .row .col-right img
